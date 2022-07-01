@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box</title>
+    <style>
+    body {
+        background-image: url(background.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              font-style: normal;
+              background-position:center;
+              filter:brightness(85%);
+              padding:50px;
+              font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              
+      }
+
+      img {
+        width:300px;
+        margin-bottom:0%;
+        padding: 10px;
+        border-color: black;
+        border-radius: 20px;
+        border-style: dotted;
+      
+    
+      }
+      p {
+        text-align: center;
+      }
+      
+      
+      ul {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+      h3 {
+        text-align: center;
+      }
+      </style>
+</head>
+<body>
+    <h1>What is the Difference Between Margins, Borders and Padding in CSS??</h1>
+    <br>
+    <p>In CSS, the border serves the same function one would serve in the real world, to frame a piece content.  An element is the content generally. With CSS,
+        you can adjust several properties of the border, including thickness, style and colour. </p>
+    <p>Padding is the space between the element and the border, which can be increased or decreased using CSS commands</p>
+    <p>Margins in CSS refer to the space outside the border.  Adjusting the margin controls how this space is used, and gaps between this element and another separate element</p>
+    <p>Together, these 3 properties form a box of sorts around the content and can be manipulated in many ways to suit the spacial and design needs of your web page</p>
+    <br>
+    <img src="cake.jpg">
+    <p id="list" style="text-align: left">The image shown has the following CSS properties:<br><br>
+        img {
+        <ul></ul>
+            <li>width:300px;</li>
+            <li>margin-bottom:0%;</li>
+            <li>padding: 10px;</li>
+            <li>border-color: black;</li>
+            <li>border-radius: 20px;</li>
+            <li>border-style: dotted;</li>
+        </ul> <br> <br>
+    
+        This CSS defines several properties for the element, which in this case is this image.<br><br>
+            - Width defines the size of the image by how far across the x-axis it traverses.<br>
+            - Margin-bottom determines how far from the bottom of the container it rests.  In this case 0% means it will sit at the bottom of the designated container
+             for this element<br>
+            - The padding size of 10px defines the gap between border and outline of the image, seen above<br>
+            - the border properties give clear instructions for the creation of the border<br>
+        </p>
+    <h3>Keep these distinctions in mind when creating your own web projects<br> and play around with the CSS tools to find what suits you best</h3>
+    <h2>Happy Designing!!</h2>
+</body>
+</html>
