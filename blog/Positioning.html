@@ -6,21 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Positioning Terms</title>
     <style>
-         body {
-      background-image: url(background.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            font-style: normal;
-            background-position:center;
-            padding: 50px;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            
-    }
-    #list  {
-       
-      }
-      
-      
+      body {
+        background-image: url(background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-style: normal;
+        background-position:center;
+        padding: 50px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        filter:brightness(85%);
+      }     
       ul {
         text-align: center;
       }
@@ -31,6 +26,33 @@
       h3 {
         text-align: center;
       }
+      footer {
+      margin-bottom:0;
+      padding: 10px;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+      a {
+        text-decoration: none;
+        color: black;
+        background-color: aliceblue;
+      }
+      a:hover {
+            background-color:rgb(73, 192, 113);
+            border-radius: 30px;
+            animation-name: background-color;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+          }
+  
+    @keyframes background-color {
+    100% {
+      background-color: aliceblue;
+    }
+}
+      h4 {
+            text-align: center;
+          }
       </style>
 </head>
 <body>
@@ -47,7 +69,7 @@
         set the exact position
     </p>
     <br>
-    <pThe following are easy sets of CSS commands for positioning elements:<br><br>
+    <p>The following are easy sets of CSS commands for positioning elements:<br><br>
 
         <ul></ul>
             <li>position: fixed;</li>
@@ -58,5 +80,9 @@
     </p>
     <h3>Keep these distinctions in mind when creating your own web projects<br> and play around with the CSS tools to find what suits you best</h3>
     <h2>Happy Designing!!</h2>
+    <h4>
+        <a href="http://127.0.0.1:5500/AboutMe.html">Go Back</a><br><br>
+    </h4>
+    <footer>Matthew Tuson  |  Dev Academy  |  Roa</footer>
 </body>
 </html>

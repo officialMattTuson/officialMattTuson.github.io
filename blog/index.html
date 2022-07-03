@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
+  <title>Matt's Blog</title>
   <style>
 
     body {
@@ -24,10 +24,10 @@
         list-style: none;
         display: inline;
         margin-left: 20%;   
-        font-size: xx-small;
+        font-size: x-small;
         list-style-type: none;
         margin:0;
-        padding: 0;
+        padding: 2px;
         overflow: hidden;
         background-color: white;
         
@@ -39,45 +39,80 @@
             cursor:pointer;
             text-decoration: none;
             margin-top: 0%;
-            padding: 20px;
+            padding: 10px;
+            font-weight: bold;
             
         }
         .navigation ul li a:hover {
-            background-color:rgb(73, 192, 113);
-            border-radius: 30px;
+          background-color:rgb(73, 192, 113);
+          border-radius: 30px;
+          animation-name: background-color;
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+          
         }
+        @keyframes background-color {
+    100% {
+      background-color:aliceblue;
+    }
+  }
 
-    a {
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
+
+    #happytimes {
+      width: 300px;
+      height: 380px;
+      border-radius: 40px;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      filter: grayscale(70%);
+      max-width: 100%;
+      height: auto;
+    }
+
+    #coolpic {
+      width:200px;
+      border-radius: 50px;
+      filter:grayscale(50%);
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      margin-bottom:0;
+      padding: 10px;
       text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
     }
 
-    img {
-      width: 150px;
-      height: 150px;
-      border-radius: 90px;
-    }
   </style>
 </head>
+
 <body>
   
   <div class="title">
     <div class="navigation">
         <ul>
-            <li> <a href="#">ABOUT ME</a></li>
-            <li> <a href="http://127.0.0.1:5500/Blog_entries.html">BLOG ENTRIES</a></li>
-            <li> <a href="#">DEV ACADEMY</a></li>
-            <li> <a href="#">PICTURE LOG</a></li>
-            <li> <a href="#">CONTACT</a></li>
+            <li> <a href="http://127.0.0.1:5500/AboutMe.html">CORE</a></li>
+            <li> <a href="http://127.0.0.1:5500/Blog_entries.html">TECH</a></li>
+            <li> <a href="#">BOOTCAMP</a></li>
+            <li> <a href="#">CLICK HERR</a></li>
+            <li> <a href="#">WORKING LINK</a></li>
         </ul>
+        <br><br>
     </div>
   </div>
-  <img src="Matt.jpg">
+  <img id ="happytimes" src="happy times.jpg">
+  <img id ="coolpic" src="Matt.jpg">
   
   <h1>Matt's Blog</h1>
   <h2>Welcome</h2>
-<br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br>
+  
+  <footer>Matthew Tuson  |  Dev Academy  |  Roa</footer>
 </body>
 </html>
