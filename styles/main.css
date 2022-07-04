@@ -13,11 +13,21 @@ body {
         filter:brightness(85%);
 }
 
-@media (max-width: 420px) {
+@media (max-width: 320px) {
     .navigation ul li {
         display:block;
     }
+    #happytimes {
+      width: 10%;
+    }
+  }
+@media (max-width: 768px) {
+  
+    #happytimes {
+      width: 30%;
+    }
 }
+
 .navigation ul li {
     
     list-style: none;
