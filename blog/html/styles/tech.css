@@ -1,0 +1,64 @@
+body {
+    background-image: url(background.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          font-style: normal;
+          background-position:center;
+          filter:brightness(85%);
+          padding:50px;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          
+  }
+
+  img {
+    width:300px;
+    margin-bottom:0%;
+    padding: 10px;
+    border-color: black;
+    border-radius: 20px;
+    border-style: dotted;
+  
+
+  }
+  p {
+    text-align: center;
+  }
+  
+  
+  ul {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  footer {
+  margin-bottom:0;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+        text-decoration: none;
+        color: black;
+        background-color: aliceblue;
+      }
+      a:hover {
+        background-color:rgb(73, 192, 113);
+        border-radius: 30px;
+        animation-name: background-color;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+
+@keyframes background-color {
+100% {
+  background-color: aliceblue;
+}
+}
+      h4 {
+        text-align: center;
+      }

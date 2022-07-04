@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\Web Project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "blog",
+		"cSpell.ignoreWords": [
+			"BOOTCAMP",
+			"Bron",
+			"Tuson",
+			"colour",
+			"coolpic",
+			"happytimes",
+			"hooman",
+			"pomodoros",
+			"visualise"
+		]
+	}
+}
