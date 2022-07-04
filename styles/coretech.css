@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/background.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          font-style: normal;
+          background-position:center;
+          padding: 100px;
+          filter:brightness(85%);
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  a {
+      text-decoration: none;
+      color: black;
+      background-color: white;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+    h1 {
+      color: aliceblue;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    a:hover {
+          background-color:rgb(73, 192, 113);
+          border-radius: 30px;
+          animation-name: background-color;
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+          padding: 5px;
+        }
+
+  @keyframes background-color {
+  100% {
+    background-color: aliceblue;
+  }
+      }
+    
+      ul {
+          list-style:none
+      }
+      footer {
+    margin-bottom:0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
