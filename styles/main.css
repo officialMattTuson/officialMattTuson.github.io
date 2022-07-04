@@ -13,20 +13,7 @@ body {
         filter:brightness(85%);
 }
 
-@media (max-width: 320px) {
-    .navigation ul li {
-        display:block;
-    }
-    #happytimes {
-      width: 10%;
-    }
-  }
-@media (max-width: 768px) {
-  
-    #happytimes {
-      width: 30%;
-    }
-}
+
 
 .navigation ul li {
     
@@ -96,5 +83,19 @@ footer {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
+}
+@media (max-width: 320px) {
+  .navigation ul li {
+      display:block;
+  }
+  #happytimes {
+    width: 10%;
+  }
+}
+@media (max-width: 768px) {
+
+  #happytimes {
+    width: 30%;
+  }
 }
 

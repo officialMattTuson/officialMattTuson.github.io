@@ -9,18 +9,7 @@ body {
           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
           
   }
-  @media (max-width: 320px) {
-    ul {
-      text-align: left;
-    }
-    
-  }
-@media (max-width: 768px) {
-  
-    ul {
-      text-align: left;
-    }
-}
+ 
   img {
     width:300px;
     margin-bottom:0%;
@@ -73,3 +62,15 @@ a {
       h4 {
         text-align: center;
       }
+      @media (max-width: 320px) {
+        ul {
+          text-align: left;
+        }
+        
+      }
+    @media (max-width: 768px) {
+      
+        ul {
+          text-align: left;
+        }
+    }

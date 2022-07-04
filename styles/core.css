@@ -10,18 +10,7 @@ body {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         
 }
-@media (max-width: 320px) {
-  a:hover {
-    background-color: aquamarine;
-  }
-  
-}
-@media (max-width: 768px) {
 
-a:hover {
-  background-color: aquamarine;
-}
-}
 
 p {
   text-align: center;
@@ -66,4 +55,16 @@ margin-bottom:0;
 padding: 10px;
 text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 320px) {
+  a:hover {
+    background-color: aquamarine;
+  }
+  
+}
+@media (max-width: 768px) {
+
+a:hover {
+  background-color: aquamarine;
+}
 }

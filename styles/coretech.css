@@ -8,18 +8,7 @@ body {
           filter:brightness(85%);
           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  @media (max-width: 320px) {
-    a:hover {
-      background-color: aquamarine;
-    }
-    
-  }
-@media (max-width: 768px) {
-  
-  a:hover {
-    background-color: aquamarine;
-  }
-}
+
   a {
       text-decoration: none;
       color: black;
@@ -56,3 +45,15 @@ body {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+  @media (max-width: 320px) {
+    a:hover {
+      background-color: aquamarine;
+    }
+    
+  }
+@media (max-width: 768px) {
+  
+  a:hover {
+    background-color: aquamarine;
+  }
+}
