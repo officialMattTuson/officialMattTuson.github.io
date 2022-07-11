@@ -9,11 +9,99 @@ body {
         text-align: center;
         background-position:center;
         margin: 0;
-        padding: 50px;
+        padding: 100px;
         filter:brightness(85%);
 }
 
+#sprintHead {
+  text-align: center;
+}
+#javaHeading {
+  width: 100%;
+  text-align: center;
+  
+}
 
+.wholeDiv {
+  border-style: dashed;
+  position: absolute;
+  padding: 20px;
+  width: 40%;
+  transition: 2s;
+
+}
+.wholeDiv:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+
+
+.wholeDiv #analogyImage {  
+  width: 100%;
+}      
+
+.controlFlow {
+  border-style: dashed;
+  position: relative;
+  padding: 20px;
+  width: 40%;
+  left: 700px;
+  transition: 2s;
+}
+.controlFlow:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+.DOM {
+  border-style: dashed;
+  position: relative;
+  padding: 20px;
+  width: 46%;
+  top: 150px;
+  transition: 2s;
+}
+.DOM:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+
+#loopSteps {
+  font-size: large;
+  font-weight: bold;
+  color:green;
+}
+.dataCollectors{
+  border-style: dashed;
+  position: relative;
+  padding: 20px;
+  width: 46%;
+  top: -280px;
+  left: 700px;
+  transition: 2s;
+}
+  .dataCollectors:hover {
+    background-color: rgb(218, 160, 84);
+    border-radius: 100px;
+    border-color: cyan;
+  }
+
+  .functions {
+
+    border-style: dashed;
+    position: relative;
+    padding: 20px;
+    width: 46%;
+    top: -400px;
+    transition: 2s;
+  }
+    .functions:hover {
+      background-color: rgb(218, 160, 84);
+      border-radius: 100px;
+      border-color: cyan;
+    }
 
 .navigation ul li {
     
@@ -54,6 +142,7 @@ body {
 }
 
 
+
 #happytimes {
   width: 300px;
   height: 380px;
@@ -84,6 +173,23 @@ footer {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
+#goBack {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+
+#goBack:hover {
+      background-color:rgb(73, 192, 113);
+      border-radius: 30px;
+      animation-name: background-color;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      padding: 5px;
+    }
 @media (max-width: 320px) {
   .navigation ul li {
       display:block;
