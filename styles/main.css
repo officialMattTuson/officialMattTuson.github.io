@@ -46,7 +46,7 @@ body {
   position: relative;
   padding: 20px;
   width: 40%;
-  left: 800px;
+  left: 850px;
   transition: 2s;
 }
 .controlFlow:hover {
@@ -59,7 +59,7 @@ body {
   position: relative;
   padding: 20px;
   width: 46%;
-  top: 200px;
+  top: 230px;
   transition: 2s;
 }
 .DOM:hover {
@@ -79,7 +79,7 @@ body {
   padding: 20px;
   width: 46%;
   top: -250px;
-  left: 800px;
+  left: 850px;
   transition: 2s;
 }
   .dataCollectors:hover {
@@ -94,7 +94,7 @@ body {
     position: relative;
     padding: 20px;
     width: 46%;
-    top: -300px;
+    top: -250px;
     transition: 2s;
   }
     .functions:hover {
