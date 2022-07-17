@@ -205,3 +205,103 @@ footer {
   }
 }
 
+
+.problemSolver {
+  border-style: dashed;
+  position: relative;
+  padding: 40px;
+  width: 80%;
+  transition: 2s;
+  margin: auto;
+  font-size: large;
+  font-weight: bold;
+
+}
+.problemSolver:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+#problemImage {
+
+  width: 80%;
+}
+.problemElegance {
+  border-style: dashed;
+  position: relative;
+  top:60px;
+  padding: 20px;
+  width: 80%;
+  transition: 2s;
+  margin: auto;
+  font-size: large;
+  font-weight: bold;
+
+
+}
+.problemElegance:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+.solvingMethods {
+  border-style: dashed;
+  position: relative;
+  top:100px;
+  padding: 20px;
+  width: 80%;
+  transition: 2s;
+  margin: auto;
+  font-size: large;
+  font-weight: bold;
+
+
+}
+.solvingMethods:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+
+#errorCode {
+  width:80%;
+}
+#pseudocode {
+  transition: 1s;
+}
+#pseudocode:hover {
+  background-color: rgb(143, 211, 143);
+  border-radius: 100px;
+  border-color: cyan;
+  
+  padding: 10px;
+}
+#problemFooter {
+  margin-bottom:0;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 150px;
+  
+}
+#back {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-style:hidden;
+  border-radius: 30px;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+}
+
+
+#back:hover {
+      background-color:rgb(73, 192, 113);
+      border-radius: 30px;
+      animation-name: background-color;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      padding: 5px;
+    }

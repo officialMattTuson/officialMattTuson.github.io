@@ -118,3 +118,88 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+
+// this function below capitalizes each word in a string.  Call the function capitalize with a sentence parameter
+
+function capitalize (sentence){ 
+    mySplit = sentence.split(" ");
+    
+    for (let i = 0; i < mySplit.length; i++) {
+        mySplit[i] = mySplit[i][0].toUpperCase() + mySplit[i].substr(1);
+    }
+
+console.log(mySplit.join(' '))
+}
+capitalize ("no way you are cooler than me")
+
+// this function joins an array of strings into a single string
+
+function concatMyArray (arrayOfStrings){
+    return arrayOfStrings.join('');
+    
+  }
+  concatMyArray (["hi"])
+  concatMyArray (["zoom", "zoom", "!"])
+
+  myArray = [
+    {hiding: "Shaggy", doorNumber: 1 },
+    {hiding: "Scooby", doorNumber: 2 },
+    {hiding: "Daphne", doorNumber: 3 },
+    {hiding: "Fred", doorNumber: 4},
+    {hiding: "velma", doorNumber:5}
+  ]  
+function whereAreYou (arrayOfObjects, name){
+
+  arrayFind = arrayOfObjects.find(hiding => hiding == name)
+  console.log(arrayFind)
+}
+whereAreYou(myArray, "Scooby")
+
+const sports = [
+    {
+      name: "Cricket",
+      numberOfInternationalTeams: 10,
+      numberOfPlayers: 11,
+    }, 
+    {
+      name: "Football",
+      numberOfInternationalTeams: 200,
+      numberOfPlayers: 11,
+    },
+    {
+      name: "Rugby",
+      numberOfInternationalTeams: 15,
+      numberOfPlayers: 15,
+    }
+    ];
+
+    const totalFirstTeamPlayers = sports.map(sport => sport.numberOfInternationalTeams * sport.numberOfPlayers)
+    console.log(totalFirstTeamPlayers)
+
+    myArray = [
+        {doorNumber: 1, hiding: "Daphne"}, 
+        {doorNumber: 2, hiding: "Shaggy"}, 
+        {doorNumber: 3, hiding: "Velma"},   
+        {doorNumber: 4, hiding: "Fred"},  
+        {doorNumber: 5, hiding: "Scooby"}
+      ]
+
+function whereAreYou(arrayOfObjects) {
+const foundObject = myArray.findLast((person) => 
+{return person.hiding === "Scooby"})
+console.log(foundObject)
+}
+whereAreYou(myArray)
+
+
+
+function deBee (string){
+    let myString = string.split(" ")
+    newString = myString.filter(word => word.toLowerCase() != "buzz")
+    console.log(newString)
+    console.log(newString.join(' '))
+  }
+  deBee("Help! I'm buzz buzz surrounded buzz by buzz buzz bees!!")
+
+ 

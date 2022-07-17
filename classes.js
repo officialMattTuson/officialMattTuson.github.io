@@ -41,3 +41,4 @@ function makeVisible () {
 
   invisible.classList.add('visible')
 }
+
